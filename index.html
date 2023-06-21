@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Avançado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>avalie a sua mentoria</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="img1.svg" class="img" alt="">
+            
+            <h2 class="legenda">informações pessoais</h2>
+            
+        </header>
+
+        <form id="my__form">
+            <fieldset>
+                <div class="fieldset__wrapper">
+                        
+                    <div class="nome__sobrenome">
+                        <div class="input__wrapper">
+                            <label for="event__nome">Nome</label>
+                            <input type="text" id="event__nome" required>
+                        </div>
+                        <div class="input__wrapper">
+                            <label for="event__sobrenome">Sobrenome</label>
+                            <input type="text" id="event__sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="event__email">Email<span>(digite um email válido)</span></label>
+                        <input type="email" id="event__email" required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset__wrapper">
+                    <legend class="legend">informações do mentor</legend>
+                    <div class="input__wrapper">
+                        <label for="event__email">Selecione quem foi o seu mentor</label>
+                        <input type="email" id="event__email" required>
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="event__info">Informações extras</label>
+                        <textarea name="" id="event__info" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="event__private">
+                        <label for="event__private">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset__wrapper">
+                    <legend class="legend">Agendando próxima mentoria</legend>
+                
+                    <div class="col-3">
+                        <div class="input__wrapper">
+                            <label for="event__date">Data</label>
+                            <input type="date" id="event__date">
+                        </div>
+                
+                        <div class="input__wrapper">
+                            <label for="event__begin">Das</label>
+                            <input type="time" id="event__begin">
+                        </div>
+                
+                        <div class="input__wrapper">
+                            <label for="event__end">Até</label>
+                            <input type="time" id="event__end">
+                        </div>
+                    </div>
+                
+                </div>
+            </fieldset>
+        
+                <button class="button" form="my__form">Salvar</button>
+            
+        </form>
+    </div>
+</body>
+</html>
