@@ -1,5 +1,3 @@
-# formulario_avancado
-Explore Stage 03 - Desafio 2, formulário Avançado
 <h1 align="center"> 📄 Formulário Avançado </h1>
 <h4 align="center"> Status: 🚀 Finished </h4>
 
